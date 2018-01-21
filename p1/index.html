@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <title>Anna Situ Project 1</title>	 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Share" rel="stylesheet">  
+<!--js effect-->
+    <meta name="description" content="Interactivity 3 Project 1 by Anna Situ.">
+    <link rel="stylesheet" media="screen" href="css/particles.css">
+    
+<!-- Line chart amCharts javascript sources -->
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+		<script type="text/javascript" src="js/dark.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    
+<!-- barchart amCharts javascript sources -->
+        <script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/dark.js"></script>
+		<script type="text/javascript" src="data/barchart.js"></script>
+		 
+
+</head>
+
+<body>
+<!-- particles.js container -->
+    <div class="section1">    
+        <div id="particles-js"></div>
+        <!-- scripts -->
+        <script src="js/particles.js"></script>
+        <script src="js/app.js"></script>
+
+<!--line elements in header-->
+    </div>
+    <div class="lines">
+            <div id="blueline1" style="width: 600px; height: 3px; float: right; background-color: #00FF31; margin-top: -160px;"></div>
+        <div id="blueline6" style="width: 60px; height: 3px; float: right; background-color: #FF00F5; margin-top: -160px; margin-right: 630px;"></div>
+        
+            <div id="blueline2" style="width: 100px; height: 3px; ; background-color: #00EBFF;"></div>
+            <div id="blueline3" style="width: 100px; height: 3px; ; background-color: #00EBFF; float: right; margin-right: "></div>
+            <div id="blueline4" style="width: 20px; height: 3px; ; background-color: #00EBFF; float: right; margin-right: 520px; margin-top:0;"></div>
+            <div id="blueline5" style="width: 10px; height: 3px; ; background-color: #00EBFF; float: right; margin-right: 10px; margin-top:0;"></div>
+        
+        </div>        
+<!--header title-->
+        <div class="title">
+            <h1 id="white">Cutting the Cord</h1>
+            <h1 id="cyan">Cutting the Cord</h1>
+            <h1 id="magenta">Cutting the Cord</h1>
+            <h2 id="subtitle"><span style=" width: 1000px; color: white; font-weight: 100; letter-spacing: 0.2em;margin-top: -30px;">How are online media streaming sites changing the TV industry</span></h2>
+        </div>
+      
+<!--Section2: -->
+    <div class="section2">
+        <div class="quote">
+            <h1 id="streaming">Streaming</h1> 
+            <h1 id="quote1">&nbsp;&nbsp;Streaming is the New Black</h1>
+            <h2 id="refquote"><span>&#8212;Serge Kassardjian, global head of media apps business development for Google Play.</span> </h2>
+        </div>
+    </div>
+    <img src="img/line1.png" style="width: 100px; margin-left: 45%; margin-top: 140px" alt="pink and yellow line">
+    
+<!--Section3: -->
+    <div class="section3">
+        <div id="tvimg"><img src="img/television.png" alt="television"></div>
+        <div class="fact1"> 
+            <h1 id="fact1">Traditional television subscription industry is declining <b style="font-size: 1.1em">2.4&#37;</b> each year since 2013</h1>
+            <h2 id="factparagraph1">Approx. 6.5 million U.S cord-cutters (including consumers who never had a Pay TV source at all) no longer subscribed to pay TV. Cutting cable television is a consumer&#8211;friendly alternative for paying expensive subscriptions and cable bundles. Consumers are switching over to online media streaming and purchasing membership and subscription to stream TV shows and movies.</h2>
+            <p id="source1"><a href="https://techcrunch.com/2017/05/04/worst-quarter-for-paid-tv-subscriptions-points-to-a-cord-cutting-future/"> &lsqb;Source &ndash; report by MoffettNathanson, U.S research firm &rsqb;</a></p>
+    </div>
+     <img src="img/line2.png" style=" float: right;width: 160px; margin-left: 86%; margin-top: 100px" alt="blue and yellow line">
+    </div>
+<!--Section4: -->
+    <div class="section4">
+        <div class="fact2">
+             <img id="videoicon" src="img/video-player.png" alt="videoplayericon" style="width: 350px;">
+            <h1 id="fact2">More than <b style="font-size: 1.1em">130</b> online video streaming services</h1>
+            <h2 id="factparagraph2">Video&#8211;on&#8211;demand pay subscription services such as Netflix, Amazon Prime, and Hulu Plus offer thousands of television shows and movies including original series. Cable companies are releasing new streaming services that offers various features. </h2>
+            <p id="source2"><a href="http://www.latimes.com/business/la-fi-tn-cord-cutting-20170520-htmlstory.html"> &lsqb;Source &ndash; news article by Makeda Easter, Los Angeles Times, 2017&rsqb;</a></p>
+    </div>
+     <img src="img/line3.png" style="width: 130px; margin-left: 27%; margin-top: 160px;" alt="pink broken lines">
+    </div>
+
+<!--Section 5-->
+    <div class="section5">
+        <h1 id="section5title">Consumer Viewing Patterns <img src="img/yellowline.png" alt="yellow line"></h1>
+        <p id="source3"><a href="https://www2.deloitte.com/us/en/pages/about-deloitte/articles/press-releases/deloitte-digital-democracy-survey-eleventh-edition.html"> &lsqb;Source &ndash; Deloitte’s 11th &quot;Digital Democracy Survey.&quot; &rsqb;</a></p>
+        <div id="charts">
+        <div class="percent1">
+            <img id="circle1" src="img/circle1.png" alt="60% chart">
+            <p><span>of Generation Z, millennials, and generation X population of 49% of U.S consumers have subscribed to paid video streaming services as of 2017 </span></p>
+        </div>
+        <div class="percent2">
+            <img id="circle2" src="img/circle2.png" alt="73% chart">
+            <p><span>of U.S consumers who subscribed to online streaming services have binge watched video content</span></p>
+        </div>
+    <div class="percent3">
+            <img id="circle3" src="img/circle3.png" alt="43% chart">
+            <p><span>of consumers across U.S. households are subscribed to pay TV such as cable <br>or satellite</span></p>
+        </div>
+        </div>
+    </div>
+    
+    
+    
+    
+<!--Section 8: main chart 2-->     
+    <div class="section8">
+        <h1 id="section8title">Demographics: Who’s still watching Cable TV?</h1>
+        <p id="chartdes2">Data taken from the following age groups shows the total nunmber of viewing hours of paid cable television throughout 2011 to 2017. Adolescents &#40;age 12 to 17&#41; and young adults &#40;age 18 to 24&#41; has shown a rapid decrease in viewing hours. Millenials are switching to online video streaming, while a great number of older adults are still watching cable television.</p>
+        <p id="source4"><a href="http://www.marketingcharts.com/featured-24817"> &lsqb;Source &ndash; The Nielsen Company &quot;Total Audience Report&quot;&rsqb;</a></p> 
+        <div id="chart2div" style="width: 90%; height: 700px; background-color: #050D2B; margin-left: 6%; float:left;"></div>
+        
+    </div>
+    
+<!--Guide to streaming-->   
+    <div class="guide">
+        <div id="devicesicon"><img src="img/devices.png" alt="multiple screen devices" style="width: 180px;"></div>
+        <h1 id="guidetitle">What’s available? </h1>
+        <p id="guidedes" >Streaming movies and television shows is available on tons of services. They offer a wide range of different programs and packages. Here’s a guide to the top online streaming services available in the U.S.</p>
+        <div class="listofsites">
+            <div class="listofsites-1">
+            <div id="netflix"> 
+                <div id="netflixpoint"></div>
+                <h3 id="netflixtitle">Netflix</h3>
+                <p id="netflixinfo"><span>Starts at &#36;8.99&#47;month for new customers, offers streaming only on one device. &#36;10.99&#47;month and &#36;13.99&#x2f;month premium membership packages expands the number of devices that can stream at the same time, download, and HD quality. 
+                <br><br>Compatible with gaming consoles, streaming boxes, TV devices mobile, tablet devices, computer browser on <a href="http://netflix.com">netflix.com</a></span></p>
+            </div>
+        <div id="amazonprime"> 
+            <div id="primepoint"></div>
+            <h3 id="amazonprimetitle">Amazon Prime Instant Video</h3>
+                <p id="amazonprimeinfo"><span>Amazon Prime is perfect for customers heavily invested in using its online shopping services. &#36;99&#47;year or &#36;10.99&#47;month offers 2&#8211;day shipping, special perks, and prime video. Prime Video only plan costs &#36;8.99&#47;month.
+                    <br><br> Amazon Prime Video app available on <a href="https://www.primevideo.com">primevideo.com</a> on phone, tablet, or Smart TVs; on up to 3 devices at once </span></p>
+            </div>
+        <div id="huluplus"> 
+            <div id="hulupoint"></div>
+            <h3>Hulu Plus</h3>
+                <p id="huluplusinfo"><span>Starts at &#36;7.99&#47;month or &#36;95.88&#47;year to stream on 1 device at a time. Extra costs to remove advertisements. Hulu Live TV for &#36;39.99&#47;month offers local, regional, and standard cable channels.
+                    <br><br> Hulu is only available in the U.S on <a href="https://www.hulu.com">hulu.com</a></span> </p>
+            </div>
+            </div>
+      <!--row 2-->   
+            <br>
+        <div class="listofsites-2">
+            <div id="slingtv"> 
+                <div id="slingtvpoint"></div>
+                <h3>Sling TV</h3>
+                <p id="slingtvinfo"><span>Sling TV is a live TV service using Internet. Sling Orange costs &#36;20&#47;month offering more than 30 channels; Sling Blue costs &#36;25&#47;month offering different channels; Sling Blue &#43; Sling Orange costs &#36;40&#47;month offering all available channels.
+                <br><br> Available on <a href="https://www.sling.com/">sling.com</a>. Compatible with TV devices, mobile phones, tablet, PC, Mac computers</span></p>
+            </div>
+        <div id="hbonow">
+            <div id="hbonowpoint"></div>
+            <h3>HBO Now</h3>
+                <p id="hbonowinfo"><span>HBO Now offers a free 1 month trial for new customers. Subscription costs a flat price of &#36;14&#47;month. HBO also offers HBO Go, which is offered with HBO cable subscription.
+                    <br><br>HBO Now app available on Google Play and App Store or at <a href="https://order.hbonow.com">hbonow.com</a>; compatible on TV devices, mobile, talbet, PC, Mac computers </span></p>
+            </div>
+        <div id="directv"> 
+            <div id="directvpoint"></div>
+            <h3>DirecTV Now</h3>
+                <p id="directvinfo"><span>DirecTV Now package starts at &#36;35&#47;month for 60&#43; channels, &#36;50&#47;month for 80&#43; channels, &#36;60&#47;month for 100&#43; channels, &#36;70&#47;month for 120&#43; channels. 
+                    <br><br>Available on <a href="https://www.directvnow.com/">directvnow.com</a>. Compatible with TV devices, computer browsers, and mobile, tablet devices with DirecTV NOW app</span> </p>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+<!--Section 6: main chart 1-->
+    <div class="section6">
+        <h1 id="section6title"> Cable television VS. Online Media Streaming Subscribers &#40;U.S&#41;</h1>
+        <img id="pinkline2" src="img/line3.png" style="width: 130px; margin-left: 5%; float: left;" alt="pink line 2"><br>
+        <p id="chartdes">Trends showing the total number of top paid cable television and paid video streaming<br> service subscribers throughout 2009&#8211;2017. Majority of population who subscribed to cable <br>TV is slowly declining each year. Online streaming subscribers are increasing drastically. </p>
+    </div>
+<!--Section 7: Main Chart-->
+    <div class="section7">
+        <div id="chartdiv" style="width: 90%; height: 700px; background-color: #050D2B; margin-left: 4.5%; ">
+        </div>
+    </div>
+<!--what do online streaming offer that tv cable dont? list + illustrations-->
+    <div class="onlinefeaturescomparision">
+        <h1 id="title-featurecomparison">Why are people streaming TV shows and movies?<br></h1>
+        <img id="greenbluepinkline" src="img/greenbluepinkline.png" alt="greenbluepinkline">
+        
+        <div class="listoffeatures">
+           <div class="commercialfree">
+               <img src="img/megaphone.png" alt="adfree image">
+                <h3>Commercial &amp; Ad Free</h3>
+            </div>
+            <div class="personlizedcontent">
+               <img src="img/personalizedcontent.png" alt="personalized webpage">
+                <h3>Personalized Content</h3>
+            
+            </div>
+            <div class="watchit">
+                <img src="img/playdevices.png" alt="play on any device">
+                <h3>Watch Anywhere, Anytime</h3>
+            
+            </div>
+        </div>
+    </div>
+    
+<!--Conclusion-->
+    <div class="conclusion">
+        <h1 id="conclusiontitle">Golden Era of Internet Streaming?</h1>
+        <h2 id="endsubtitle">How Are Cable Companies Responding to the Competition? </h2>
+        <p><span>Cable television has been around since the 1940s and 50s. The emergence of new technologies and media has created easy and accessible media streaming by using the Internet. The experience of watching TV shows and movies is in the control of the user. As media streaming has entered into our mainstream society, a majority of the world are still subscribed to cable tv. Will television become obsolete? We're seeing a downhill trend in small percentage of the population unsubcribing to top cable tv in the U.S while online streaming services are showing rapid increase in subsribers.Television could phase out in the near future; however, companies are providing new services and packages, giving users more options and control of their viewing experience.</span></p>
+        <img src="img/footerdivider.png" alt="footer divider line">
+    </div>
+
+ <!--Footer-->
+    <div class="footer">
+        <div class="mysources">
+            <h3>Sources</h3>
+            <div class="sourcecolomn1">
+            Netflix data:
+                <a href="https://ir.netflix.com/annuals.cfm">1</a><br>
+            Amazon Prime data: 
+                <a href="http://www.practicalecommerce.com/Amazon-Prime-5-Million-Members-20-Percent-Growth">1</a>
+                <a href="http://www.stltoday.com/business/local/amazon-by-the-numbers/collection_cd96d196-97d0-11e7-a710-d3d0ea28c58e.html#1">2</a>
+                <a href="https://search-proquest-com.library.sheridanc.on.ca/docview/1648433700/fulltext/D12281610DD04907PQ/1?accountid=3455">3</a>
+            <br>
+           Hulu Plus data:
+                <a href="http://go.galegroup.com.library.sheridanc.on.ca/ps/i.do?p=STND&u=ko_acd_shc&id=GALE|A366598897&v=2.1&it=r&sid=summon&authCount=1">1</a>
+                <a href="http://login.library.sheridanc.on.ca/login?url=https://search-proquest-com.library.sheridanc.on.ca/docview/1676464731?accountid=3455">2</a>
+                <a href="https://search-proquest-com.library.sheridanc.on.ca/docview/1536891623?pq-origsite=summon">3</a>
+                <a href="http://blog.hulu.com/2012/01/12/2011-2012-and-beyond/">4</a>
+            <br>
+            Sling TV data:
+                <a href="http://www.insideradio.com/free/more-streaming-leads-to-steeper-drop-in-pay-tv-subs/article_9f2e8694-ffde-11e6-a1d8-fb6dae8f81b2.html">1</a>
+            <br>
+            DirecTV Now data:
+                <a href="https://techcrunch.com/2017/07/25/atts-streaming-service-directv-now-nears-half-a-million-subscribers/">1</a>
+            </div>
+            
+            <div class="sourcecolomn2">
+            HBO Now data:
+                <a href="https://www.fool.com/investing/2017/02/13/hbo-now-subscriber-growth-is-accelerating.aspx">1</a>
+                <a href="https://www.statista.com/statistics/539290/hbo-now-subscribers/">2</a>
+           <br>
+            U.S media data:
+                <a href="http://www.leichtmanresearch.com/research/notes06_2009.pdf">1</a>
+                <a href="https://arstechnica.com/information-technology/2016/02/comcast-shrugs-off-years-of-cord-cutting-losses-adds-89k-tv-customers/">2</a>
+                <a href="http://www.leichtmanresearch.com/research/notes06_2017.pdf">3</a>
+            <br>
+            Comcast data:
+                <a href="https://www.recode.net/2017/4/27/15413870/comcast-broadband-internet-pay-tv-subscribers-q1-2017">1</a>
+            <br>
+            DirecTV data:
+                <a href="http://www.annualreports.com/Company/directv">1</a>
+             <br>
+            Dish Network data: 
+            <a href="http://www.denverpost.com/2017/02/22/dish-network-tv-5g-wireless/">1</a>
+            <a href="https://www.statista.com/statistics/195700/subscribers-of-dish-network-since-2006/">2</a>
+            <a href="http://dish.client.shareholder.com/results.cfm">3</a>
+            </div>
+            
+        </div>
+        <div class="chartssources">
+            <h3>Charts sources</h3>
+            bar chart: <a href="http://www.chartjs.org/">charts.js</a>
+            <br>
+            line chart: <a href="https://www.amcharts.com/">amcharts.com</a>
+            <br>
+            js background: <a href="https://codepen.io/VincentGarreau/pen/pnlso">particles.js</a>
+        </div>
+        <div class="project">
+            <h3>Project Information</h3>
+            <h4>YSDN 3006 Interactivity 3 <br> Borzu Talaie <br> Fall 2017 <br>Created by: Anna Situ</h4>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+
+<!--reference: 
+https://www.pcmag.com/article/348989/netflix-vs-hulu-streaming-service-showdown
+https://www.cnet.com/news/sling-tv-everything-you-need-to-know/
+https://www.primevideo.com
+https://www2.deloitte.com/us/en/pages/about-deloitte/articles/press-releases/deloitte-digital-democracy-survey-eleventh-edition.html
+-->

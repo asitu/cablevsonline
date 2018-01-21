@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+  
+    color: #fff;
+}
+path.color0 {
+    fill: pink;
+}
+path.color1 {
+    fill: rgba(255,255,255,.3);
+}
+
